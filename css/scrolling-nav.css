@@ -1,0 +1,293 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+@font-face {
+	font-family: gemelli;
+	src: url(../fonts/gemelli/gemelli_wintt/GEMELLI_.TTF);
+}
+ 
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+.link {
+	color: #6961ff;
+}
+
+.link:hover{
+	color: #6961ff;
+}
+
+.button {
+	background-color: #282828;
+	border: 1.5px solid #282828;
+	padding: 15px 32px;
+	color: #ff6961;
+	font-size: 22px;
+    transition: all 0.3s ease 0s;
+
+}
+
+.button:hover {
+	background-color:white;
+	color: #282828;
+	cursor:pointer;
+}
+
+.button:active {
+	background-color: #ff6961;
+}
+
+.buttonInvert {
+	background-color: #ff6961;
+	border: 1.5px solid #ff6961;
+	padding: 15px 32px;
+	color: #282828;
+	font-size: 22px;
+    transition: all 0.3s ease 0s;
+
+}
+
+.buttonInvert:hover {
+	background-color:#282828;
+	color: #ff6961;
+	cursor:pointer;
+}
+
+.buttonInvert:active {
+	background-color: white;
+}
+
+/*Red button.*/
+
+.Introduction {
+	/*background-color: red;*/
+	background-image: url("../images/ProgrammingWeb.jpg");
+	color: white;
+	text-align: center;
+	height: 100vh;
+}
+
+.js-scroll-trigger {
+	color: pink;
+}
+
+
+
+.portfolio {
+	color: white;
+}
+
+/* the modal */
+.modal-content {
+	background-color: #282828;
+}
+
+/* Footer for the Modal. */
+.ModalFooter {
+	padding:10px 10px;
+}
+
+/*Controling the images in the Modal*/
+.imageSlider {
+  position: relative;
+  float:left;
+}
+
+
+.ModalImages {
+	width: 100%;
+	max-height: 50%;
+	margin-bottom: 6px;
+}
+
+/*For image overlay.*/
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ImageHolder {
+	float: left;
+	width: 33.33%;
+	padding: 4px;
+	margin-bottom: 2px;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #282828;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+/*header for the image sliders.*/
+.ImageH3 {
+	color: #282828;
+	text-align: center;
+}
+
+.imageSlider:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: #ff6961;
+  font-size: 22px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+h1 {
+	color: #ff6961;
+	text-align: center;
+}
+
+.me {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	max-height: 150%;
+	max-width: 150%;
+}
+
+/*The cross on the modal.*/
+.cross {
+	color: white;
+}
+
+.cross:hover {
+	color:#ff6961;
+}
+
+/*to center text/images.*/
+.centered {
+	text-align: center;
+}
+
+h2 {
+	color: #ff6961;
+	text-align: center;
+}
+
+nav {
+	background-color: #282828;
+}
+
+.ModalH4 {
+	color: #ff6961;
+	text-align: center;
+	padding: 10px 6px;
+}
+
+.welcome {
+	font-family: gemelli;
+	font-size: 600%;
+	color: #61f7ff;
+}
+
+.navText:link {
+  color: #ff61f7;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.navText:hover {
+	color:yellow;
+	text-decoration: none;
+}
+
+.navText:active {
+	color: white;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.red {
+	color: #ff6961;
+	font-weight: bold;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
